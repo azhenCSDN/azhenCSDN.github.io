@@ -31,6 +31,33 @@
     </entry>
     
     
+    
+    <entry>
+      <title>软件程序设计原则</title>
+      <link href="/2019/08/23/ruan-jian-she-ji-yuan-ze/"/>
+      <url>/2019/08/23/ruan-jian-she-ji-yuan-ze/</url>
+      
+        <content type="html"><![CDATA[<p><strong><strong>一、前言</strong></strong><br>软件也像人一样，具有生命力，从出生到死亡，会经历多种变化。软件架构设计不是一蹴而就的，是不断的演进发展的。每个程序员都可以从理解编程原则中受益。</p><p>软件设计原则是一组帮助我们避开不良设计的指导方针。根据Robert Martin的理论，应该避免不良设计的几个重要的特点:</p><p> 儒化：很难做改动，因为每一个细微的改动都会影响到系统大量的其它功能<br><br>脆弱：每当你做一次改动，总会引起系统中预期之外的部分出现故障<br><br>死板：代码很那在其它应用中重用，因其不能从中单独抽离出来<br></p><p><strong>二、通用设计原则</strong><br><br>1.kiss<br>所谓kiss原则，是指设计要坚持的简约原则，避免不必要的复杂化，并且易于修改。</p><p>简单清晰，功能强大是软件设计最重要的原则和目标，但是软件工程天然错综复杂，而简单却没有一个衡量标准，判断一个东西2是不是简单，可以从以下方式来参考。</p><p>1.让别的软件工程师以一种简单的方式使用你的方案。<br>2.简单不是走捷径，不是为手边的问题随便找一种方案。<br>3.当系统变得更庞大更复杂的时候依然能够被理解<br>4.如果系统无法保持简单，那么我们能做的就是保持各个局部简单，<br>即任何单个的类，模块，应用的设计目标及工作与原理都能很快被理解</p><blockquote><p>我的理解：保持简单但不能掩盖软件丰富的内涵。我认为就是简约而不简单。软件设计就是要简单而不能丢失了内涵。</p></blockquote><p>2.DRY<br>所谓DRY原则就是不要让自己重复</p><p>重复代码是软件程序变烂的万恶之源。这个设计原则并不是指你不能复制代码，而是你复制的代码不能包含重复的信息。</p><blockquote><p>我的理解：解决重复的最佳方式是要有良好的编码习惯。</p></blockquote><p>分离方式</p><p>简单介绍一些分层的思想和方式：</p><p>1.纵向分离：常见的三层架构</p><p>2.横向分离：拆分模块或子系统</p><p>3.扩展分离：如果基于某种设计，原先不具有某些行为需要增加，可以考虑通过扩展或插件的形式来完成，将这些功能放入到插件或扩展中。</p><p>反转分离：很多依赖注入的框架，如spring等等，可以帮助我们做依赖反转，从而倒置依赖关系。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件设计 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 面向对象编程 </tag>
+            
+            <tag> 设计原则 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
   
   
 </search>
