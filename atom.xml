@@ -5,9 +5,9 @@
   <subtitle>沈政的博客</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://shenzheng.clud/"/>
+  <link href="https://azhenCSDN.github.io/"/>
   <updated>2019-10-19T05:25:59.976Z</updated>
-  <id>https://shenzheng.clud/</id>
+  <id>https://azhenCSDN.github.io/</id>
   
   <author>
     <name>沈政</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>博客使用</title>
-    <link href="https://shenzheng.clud/2019/10/08/blog-open-source/"/>
-    <id>https://shenzheng.clud/2019/10/08/blog-open-source/</id>
+    <link href="https://azhenCSDN.github.io/2019/10/08/blog-open-source/"/>
+    <id>https://azhenCSDN.github.io/2019/10/08/blog-open-source/</id>
     <published>2019-10-08T03:41:03.000Z</published>
     <updated>2019-10-19T05:25:59.976Z</updated>
     
@@ -37,21 +37,21 @@
     
     </summary>
     
-      <category term="软件使用" scheme="https://shenzheng.clud/categories/%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8/"/>
+      <category term="软件使用" scheme="https://azhenCSDN.github.io/categories/%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8/"/>
     
     
-      <category term="Hexo" scheme="https://shenzheng.clud/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://azhenCSDN.github.io/tags/Hexo/"/>
     
-      <category term="Github" scheme="https://shenzheng.clud/tags/Github/"/>
+      <category term="Github" scheme="https://azhenCSDN.github.io/tags/Github/"/>
     
-      <category term="博客" scheme="https://shenzheng.clud/tags/%E5%8D%9A%E5%AE%A2/"/>
+      <category term="博客" scheme="https://azhenCSDN.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
   <entry>
     <title>软件程序设计原则</title>
-    <link href="https://shenzheng.clud/2019/08/23/ruan-jian-she-ji-yuan-ze/"/>
-    <id>https://shenzheng.clud/2019/08/23/ruan-jian-she-ji-yuan-ze/</id>
+    <link href="https://azhenCSDN.github.io/2019/08/23/ruan-jian-she-ji-yuan-ze/"/>
+    <id>https://azhenCSDN.github.io/2019/08/23/ruan-jian-she-ji-yuan-ze/</id>
     <published>2019-08-23T00:30:00.000Z</published>
     <updated>2019-10-21T10:12:44.231Z</updated>
     
@@ -68,12 +68,12 @@
     
     </summary>
     
-      <category term="软件设计" scheme="https://shenzheng.clud/categories/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1/"/>
+      <category term="软件设计" scheme="https://azhenCSDN.github.io/categories/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1/"/>
     
     
-      <category term="面向对象编程" scheme="https://shenzheng.clud/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/"/>
+      <category term="面向对象编程" scheme="https://azhenCSDN.github.io/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/"/>
     
-      <category term="设计原则" scheme="https://shenzheng.clud/tags/%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99/"/>
+      <category term="设计原则" scheme="https://azhenCSDN.github.io/tags/%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99/"/>
     
   </entry>
   
