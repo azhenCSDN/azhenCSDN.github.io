@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://azhenCSDN.github.io/"/>
-  <updated>2019-10-25T09:19:29.997Z</updated>
+  <updated>2019-11-01T02:50:56.227Z</updated>
   <id>https://azhenCSDN.github.io/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaScript学习</title>
+    <link href="https://azhenCSDN.github.io/2019/10/26/javascript-ji-ben-zhi-shi/"/>
+    <id>https://azhenCSDN.github.io/2019/10/26/javascript-ji-ben-zhi-shi/</id>
+    <published>2019-10-26T01:41:03.000Z</published>
+    <updated>2019-11-01T02:50:56.227Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;#简诉&lt;/p&gt;
+&lt;p&gt;JavaScript是一种面向对象的动态语言，它包含类型，运算符标准内置对象和方法。它的来源于Java和c，它们的语法很像，需要注意的一点是JavaScript不支持类。&lt;/p&gt;
+&lt;p&gt;#数据类型和结构&lt;/p&gt;
+&lt;p&gt;##1.动态类型&lt;/p&gt;
+&lt;p&gt;J
+        
+      
+    
+    </summary>
+    
+      <category term="语言学习" scheme="https://azhenCSDN.github.io/categories/%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="编程语言" scheme="https://azhenCSDN.github.io/tags/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+      <category term="脚本语言" scheme="https://azhenCSDN.github.io/tags/%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
   
   <entry>
     <title>软件程序设计原则</title>

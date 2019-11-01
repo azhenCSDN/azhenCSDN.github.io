@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>JavaScript学习</title>
+      <link href="/2019/10/26/javascript-ji-ben-zhi-shi/"/>
+      <url>/2019/10/26/javascript-ji-ben-zhi-shi/</url>
+      
+        <content type="html"><![CDATA[<p>#简诉</p><p>JavaScript是一种面向对象的动态语言，它包含类型，运算符标准内置对象和方法。它的来源于Java和c，它们的语法很像，需要注意的一点是JavaScript不支持类。</p><p>#数据类型和结构</p><p>##1.动态类型</p><p>JavaScript是一种弱类型的语言。这意味着不用提前声明变量的类型，在程序运行过程中，类型会被自动确定。</p><p>var foo=42;<br>var foo=”abc”;<br>var foo=true;</p><p>##2.数据类型<br>基本类型</p><p>*NUll(空，只有一个值)</p><p>*undefined(未定义，没有被赋值的变量的默认值是undefined)</p><p>*Number(数字)</p><p>*String(字符串)</p><p>*Array(数组)</p><p>*Function(函数)</p><p>*RegExp(正则表达式)</p><p>#作用域</p><p>作用域就是变量于函数可访问的范围，即作用域控制着变量于函数的<br>生命周期，在JavaScript中作用域有全局作用域和局部作用域两种。</p><p>##1.全局作用域</p><p>在代码中任何地方都能访问到的对象拥有全局作用域。</p><p>*最外层函数和在最外层函数外面定义的变量拥有全局作用域。</p><p>*所有未定义的而直接赋值的变量自动声明为拥有全局作用域。</p><p>##2.局部作用域</p><p>局部作用域一般只在固定的代码片段内可以访问，最常见的是在函数内部。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 语言学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 编程语言 </tag>
+            
+            <tag> 脚本语言 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>软件程序设计原则</title>
       <link href="/2019/10/18/ruan-jian-she-ji-yuan-ze/"/>
       <url>/2019/10/18/ruan-jian-she-ji-yuan-ze/</url>
