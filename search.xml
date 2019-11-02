@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>数据结构</title>
+      <link href="/2019/10/28/shu-ju-jie-gou-jian-jie/"/>
+      <url>/2019/10/28/shu-ju-jie-gou-jian-jie/</url>
+      
+        <content type="html"><![CDATA[<p>#数据结构</p><p>数据结构是相互之间存在的一种或多种特定关系的数据元素的集合。</p><ul><li><p>逻辑结构：集合结构，线性结构，树形结构，图形结构。</p></li><li><p>物理结构：顺序存储结构，链式存储结构。</p></li></ul><p>#定义</p><ul><li><p>集合结构：集合结构中的数据元素除了同属于一个集合外，它们之间没有其它关系，各个数据元素之间是平等的。</p></li><li><p>线性结构：数据元素之间是一对一的关系。</p></li><li><p>树形结构：数据元素之间存在一对多的关系。</p></li><li><p>图形结构：数据元素之间是多对多的关系。</p></li><li><p>顺序存储结构：把数据元素存放在地址连续的存储单元里。</p></li><li><p>链式存储结构：把数据元素存放在任意的存储单元里，可以是连续的，也可以是不连续的。</p></li><li><p>数据类型：是☞一组性质相同的值的集合及定义在此集合上的一些操作的总称。</p></li></ul><p>#算法</p><p>##定义</p><p>算法是解决特定问题求解问题的描述，在计算机中表现为指令的有限序列。</p><ul><li>特性：输入，输出，有穷性，确定性和可行性。</li><li>要求：正确性、可读性、健壮性、高效率和低存储量需求。</li></ul><p>#线性表</p><p>##定义</p><p>指的是用一段地址连续的存储单元依次存储线性表的数据元素。即物理地址连续。</p><p>###链表的插入<br>获得链表数据第i个的思路：</p><p>1.声明一个指针p指向链表的第一个结点。</p><p>2.当j&lt;i时，，就遍历链表让p的指针向后移动，不断指向下一个节点，j累加一。</p><p>3.若到链表末尾p为空，则说明第i个结点不存在。</p><p>4.否则查找成功，返回结点p的数据。</p><p>#栈<br>定义：是限定在栈顶进行插入和删除操作的线性表。</p><p>特性：先进后出</p><p>#队列<br>定义：只允许在另一端进行插入操作，而在另一端进行删除操作的线性表。</p><p>特性：先进先出</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据结构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 程序结构 </tag>
+            
+            <tag> 数据结构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JavaScript学习</title>
       <link href="/2019/10/26/javascript-ji-ben-zhi-shi/"/>
       <url>/2019/10/26/javascript-ji-ben-zhi-shi/</url>
