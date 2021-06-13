@@ -4,20 +4,10 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="软件工程">
+    <meta name="keywords" content="博客使用, 软件工程">
     <meta name="baidu-site-verification" content="fmlEuI34ir">
     <meta name="google-site-verification" content="KeoTn_OFy4ndJwXNmm2gMeQfPhd7alqE9vQDwI32KCY">
-    <meta name="description" content="点击关注公众号及时获取笔主最新更新文章，并可免费领取本文档配套的《Java面试突击》以及Java工程师必备学习资源。
-
-
-
-Servlet总结
-阐述Servlet和CGI的区别?
-CGI的不足之处:
-Servlet的优点：
-
-
-Servle">
+    <meta name="description" content="Servlet总结在Java Web程序中，Servlet主要负责接收用户请求 HttpServletRequest,在doGet(),doPost()中做相应的处理，并将回应HttpServletResponse反馈给用户。Servlet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -25,7 +15,7 @@ Servle">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>沈政的博客</title>
+    <title>博客使用 | 沈政的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -611,13 +601,13 @@ Servle">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        
+                        博客使用
                     </div>
                 </div>
             </div>
@@ -726,12 +716,25 @@ Servle">
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/编程语言/" target="_blank">
+                                <span class="chip bg-color">编程语言</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/语言学习/" class="post-category" target="_blank">
+                                语言学习
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -739,7 +742,7 @@ Servle">
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-06-13
+                    2019-10-08
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -758,37 +761,7 @@ Servle">
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>点击关注<a href="#公众号">公众号</a>及时获取笔主最新更新文章，并可免费领取本文档配套的《Java面试突击》以及Java工程师必备学习资源。</p>
-<!-- MarkdownTOC -->
-
-<ul>
-<li><a href="#servlet总结">Servlet总结</a></li>
-<li><a href="#阐述servlet和cgi的区别">阐述Servlet和CGI的区别?</a><ul>
-<li><a href="#cgi的不足之处">CGI的不足之处:</a></li>
-<li><a href="#servlet的优点">Servlet的优点：</a></li>
-</ul>
-</li>
-<li><a href="#servlet接口中有哪些方法及servlet生命周期探秘">Servlet接口中有哪些方法及Servlet生命周期探秘</a></li>
-<li><a href="#get和post请求的区别">get和post请求的区别</a></li>
-<li><a href="#什么情况下调用doget和dopost">什么情况下调用doGet()和doPost()</a></li>
-<li><a href="#转发forward和重定向redirect的区别">转发（Forward）和重定向（Redirect）的区别</a></li>
-<li><a href="#自动刷新refresh">自动刷新(Refresh)</a></li>
-<li><a href="#servlet与线程安全">Servlet与线程安全</a></li>
-<li><a href="#jsp和servlet是什么关系">JSP和Servlet是什么关系</a></li>
-<li><a href="#jsp工作原理">JSP工作原理</a></li>
-<li><a href="#jsp有哪些内置对象、作用分别是什么">JSP有哪些内置对象、作用分别是什么</a></li>
-<li><a href="#request对象的主要方法有哪些">Request对象的主要方法有哪些</a></li>
-<li><a href="#requestgetattribute和-requestgetparameter有何区别">request.getAttribute()和 request.getParameter()有何区别</a></li>
-<li><a href="#include指令include的行为的区别">include指令include的行为的区别</a></li>
-<li><a href="#jsp九大内置对象，七大动作，三大指令">JSP九大内置对象，七大动作，三大指令</a></li>
-<li><a href="#讲解jsp中的四种作用域">讲解JSP中的四种作用域</a></li>
-<li><a href="#如何实现jsp或servlet的单线程模式">如何实现JSP或Servlet的单线程模式</a></li>
-<li><a href="#实现会话跟踪的技术有哪些">实现会话跟踪的技术有哪些</a></li>
-<li><a href="#cookie和session的的区别">Cookie和Session的的区别</a></li>
-</ul>
-<!-- /MarkdownTOC -->
-
-<h2 id="Servlet总结"><a href="#Servlet总结" class="headerlink" title="Servlet总结"></a>Servlet总结</h2><p>在Java Web程序中，<strong>Servlet</strong>主要负责接收用户请求 <code>HttpServletRequest</code>,在<code>doGet()</code>,<code>doPost()</code>中做相应的处理，并将回应<code>HttpServletResponse</code>反馈给用户。<strong>Servlet</strong> 可以设置初始化参数，供Servlet内部使用。一个Servlet类只会有一个实例，在它初始化时调用<code>init()</code>方法，销毁时调用<code>destroy()</code>方法<strong>。</strong>Servlet需要在web.xml中配置（MyEclipse中创建Servlet会自动配置），<strong>一个Servlet可以设置多个URL访问</strong>。<strong>Servlet不是线程安全</strong>，因此要谨慎使用类变量。</p>
+                <h2 id="Servlet总结"><a href="#Servlet总结" class="headerlink" title="Servlet总结"></a>Servlet总结</h2><p>在Java Web程序中，<strong>Servlet</strong>主要负责接收用户请求 <code>HttpServletRequest</code>,在<code>doGet()</code>,<code>doPost()</code>中做相应的处理，并将回应<code>HttpServletResponse</code>反馈给用户。<strong>Servlet</strong> 可以设置初始化参数，供Servlet内部使用。一个Servlet类只会有一个实例，在它初始化时调用<code>init()</code>方法，销毁时调用<code>destroy()</code>方法<strong>。</strong>Servlet需要在web.xml中配置（MyEclipse中创建Servlet会自动配置），<strong>一个Servlet可以设置多个URL访问</strong>。<strong>Servlet不是线程安全</strong>，因此要谨慎使用类变量。</p>
 <h2 id="阐述Servlet和CGI的区别"><a href="#阐述Servlet和CGI的区别" class="headerlink" title="阐述Servlet和CGI的区别?"></a>阐述Servlet和CGI的区别?</h2><h3 id="CGI的不足之处"><a href="#CGI的不足之处" class="headerlink" title="CGI的不足之处:"></a>CGI的不足之处:</h3><p>1，需要为每个请求启动一个操作CGI程序的系统进程。如果请求频繁，这将会带来很大的开销。</p>
 <p>2，需要为每个请求加载和运行一个CGI程序，这将带来很大的开销 </p>
 <p>3，需要重复编写处理网络协议的代码以及编码，这些工作都是非常耗时的。</p>
@@ -1119,7 +1092,7 @@ Cookie<span class="token punctuation">[</span><span class="token punctuation">]<
                     </span>
                     <a href="https://azhenCSDN.github.io" class="b-link-green">沈政的博客</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/2021/06/13/j2ee-ji-chu-zhi-shi/" class="b-link-green"></a>
+                    <a href="/2019/10/08/j2ee-ji-chu-zhi-shi/" class="b-link-green">博客使用</a>
                 </p>
             </div>
 
@@ -1141,90 +1114,40 @@ Cookie<span class="token punctuation">[</span><span class="token punctuation">]<
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">
-                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
-            </div>
-            <div class="card">
-                <a href="/2021/06/13/j2ee-ji-chu-zhi-shi/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
-                        
-                        <span class="card-title"></span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            点击关注公众号及时获取笔主最新更新文章，并可免费领取本文档配套的《Java面试突击》以及Java工程师必备学习资源。
-
-
-
-Servlet总结
-阐述Servlet和CGI的区别?
-CGI的不足之处:
-Servlet的优点：
-
-
-Servle
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-06-13
-                            </span>
-                        <span class="publish-author">
-                            
-                        </span>
-                    </div>
-                </div>
-
-                
-            </div>
-        </div>
-        
-        
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
-            </div>
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2019/10/30/markdown-ji-ben-shi-yong/">
+                <a href="/2019/10/08/blog-open-source/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="Markdown基本使用">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="博客使用">
                         
-                        <span class="card-title">Markdown基本使用</span>
+                        <span class="card-title">博客使用</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Markdown 是什么Markdown是一种轻量级标记语言，它以纯文本形式编写文档，便最终以HTML的形式发布。
-#基本语法
-1.斜体和粗体
- *斜体 *或_斜体_
-
- ** 粗体**
-
-*** 加粗斜体***2.分级标题
- #一级标题
-
+                            特性
+简单漂亮，文章内容美观易读
+Material Design 设计
+响应式设计，博客在桌面端、平板、手机等设备上均能很好的展现
+首页轮播文章及每天动态切换 Banner 图片
+瀑布流式的博客文章列表（文章无特色图片时会有 24 张漂亮的
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-10-30
-                            </span>
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-10-08
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/标记语言/" class="post-category" target="_blank">
-                                    标记语言
+                            <a href="/categories/软件使用/" class="post-category" target="_blank">
+                                    软件使用
                                 </a>
                             
                             
@@ -1234,12 +1157,66 @@ Servle
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Markdown/" target="_blank">
-                        <span class="chip bg-color">Markdown</span>
+                    <a href="/tags/Hexo/" target="_blank">
+                        <span class="chip bg-color">Hexo</span>
                     </a>
                     
-                    <a href="/tags/标记语言/" target="_blank">
-                        <span class="chip bg-color">标记语言</span>
+                    <a href="/tags/Github/" target="_blank">
+                        <span class="chip bg-color">Github</span>
+                    </a>
+                    
+                    <a href="/tags/博客/" target="_blank">
+                        <span class="chip bg-color">博客</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                本篇&nbsp;<i class="fa fa-dot-circle-o"></i>
+            </div>
+            <div class="card">
+                <a href="/2019/10/08/j2ee-ji-chu-zhi-shi/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="博客使用">
+                        
+                        <span class="card-title">博客使用</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Servlet总结在Java Web程序中，Servlet主要负责接收用户请求 HttpServletRequest,在doGet(),doPost()中做相应的处理，并将回应HttpServletResponse反馈给用户。Servlet
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-10-08
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/语言学习/" class="post-category" target="_blank">
+                                    语言学习
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/编程语言/" target="_blank">
+                        <span class="chip bg-color">编程语言</span>
                     </a>
                     
                 </div>
