@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://azhenCSDN.github.io/2020/04/08/java8-xin-te-xing-zong-jie/</loc>
+    
+    <lastmod>2021-06-14T00:13:45.144Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://azhenCSDN.github.io/2019/12/08/j2ee-ji-chu-zhi-shi/</loc>
     
     <lastmod>2021-06-13T02:04:22.768Z</lastmod>
@@ -86,13 +93,6 @@
   </url>
   
   <url>
-    <loc>https://azhenCSDN.github.io/friends/index.html</loc>
-    
-    <lastmod>2019-10-04T03:57:55.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://azhenCSDN.github.io/categories/index.html</loc>
     
     <lastmod>2019-10-04T03:57:55.000Z</lastmod>
@@ -108,6 +108,13 @@
   
   <url>
     <loc>https://azhenCSDN.github.io/tags/index.html</loc>
+    
+    <lastmod>2019-10-04T03:57:55.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://azhenCSDN.github.io/friends/index.html</loc>
     
     <lastmod>2019-10-04T03:57:55.000Z</lastmod>
     
