@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://azhenCSDN.github.io/"/>
-  <updated>2021-06-14T00:13:45.144Z</updated>
+  <updated>2021-06-15T08:47:54.252Z</updated>
   <id>https://azhenCSDN.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>容器学习</title>
+    <link href="https://azhenCSDN.github.io/2020/05/08/docker/"/>
+    <id>https://azhenCSDN.github.io/2020/05/08/docker/</id>
+    <published>2020-05-08T02:41:03.000Z</published>
+    <updated>2021-06-15T08:47:54.252Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;本文只是对 Docker 的概念做了较为详细的介绍，并不涉及一些像 Docker 环境的安装以及 Docker 的一些常见操作和命令。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;一-认识容器&quot;&gt;&lt;a href=&quot;#一-认识容器&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="容器化技术学习" scheme="https://azhenCSDN.github.io/categories/%E5%AE%B9%E5%99%A8%E5%8C%96%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="容器化技术学习" scheme="https://azhenCSDN.github.io/tags/%E5%AE%B9%E5%99%A8%E5%8C%96%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>语言学习</title>
